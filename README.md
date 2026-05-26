@@ -26,7 +26,7 @@ Sector-level mean log-odds ($\mu_s$) provide a view of which sectors trend above
 |---|---|---|
 | $\eta_{sc}$ | Log-odds of positive return for company $c$ in sector $s$ | Converges near 0 +/- 0.5 logit |
 | $\theta_{sc}$ | Probability of positive return (back-transformed) | ~45-55% range across companies |
-| $\$mu_s$ | Sector mean log-odds | Varies by sector; quantifies sector-level trend |
+| $\mu_s$ | Sector mean log-odds | Varies by sector; quantifies sector-level trend |
 | $\tau_s$ | Precision of log-odds within a sector | High values mean companies cluster tightly around sector mean |
 | ESS | Effective Sample Size per parameter | ~15,000-22,000 (efficient sampling) |
 | Iterations | Total MCMC draws | 60,000 (post burn-in and adapt: ~40,000 effective) |
